@@ -1,0 +1,6 @@
+{% extends 'layouts/main.html' %}
+{% block content %}
+    {% for hashtag in hashtags %}
+        <h3>{{ hashtag }}</h3>
+    {% endfor %}
+{% endblock %}
