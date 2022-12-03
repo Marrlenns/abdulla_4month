@@ -1,0 +1,10 @@
+venv
+.env
+db.sqlite3
+media
+
+.idea
+.vscode
+_pycache_/
+*.py[cod]
+*.so
